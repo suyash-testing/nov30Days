@@ -1,4 +1,4 @@
-import tools.VeryAdvCalc;
+import other.tools.VeryAdvCalc;
 
 public class NeedOfHeritance_48 {
     public static void main(String args[]){
