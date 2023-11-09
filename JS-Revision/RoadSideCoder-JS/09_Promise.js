@@ -184,4 +184,10 @@ promise
       console.log(res);
     });
   
+    What is a Promise in JavaScript and how does it work?
+    Explain the states of a Promise
+    Explain how to chain multiple Promises together and the syntax for doing so
+    How can you convert a callback-based function to a Promise-based function?
+    What is a race condition and how can you prevent it when using Promises?
+    Explain the concept of async/await and how it relates to Promises
 */
