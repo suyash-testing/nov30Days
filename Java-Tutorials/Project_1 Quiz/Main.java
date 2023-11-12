@@ -3,6 +3,5 @@ public class Main {
         QuestionsService service = new QuestionsService();
         service.playQuiz();
         service.printScore();
-
     }
 }
