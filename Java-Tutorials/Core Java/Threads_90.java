@@ -1,10 +1,14 @@
-public class Threads_90 {
-    public static void main(String[] args) {
-        Main thread = new Main();
-        thread.start();
-        System.out.println("This code is outside of the thread");
-      }
-      public void run() {
-        System.out.println("This code is running in a thread");
-      }
+public class Threads_90 extends Thread {
+
+  // initiated run method for Thread
+  public void run() {
+    System.out.println("Thread Started Running...");
+  }
+
+  public static void main(String[] args) {
+    Threads_90 g1 = new Threads_90();
+
+    // Invoking Thread using start() method
+    g1.start();
+  }
 }
